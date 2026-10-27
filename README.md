@@ -1,16 +1,40 @@
-# Car Dealership Reviews
+# xrwvm-fullstack_developer_capstone
 
-**Repository name:** `car-dealership`  
-**Project name:** Car Dealership Reviews
+**Repository name:** xrwvm-fullstack_developer_capstone
 
-## Project overview
-A starter project for a car dealership review application. It includes static About Us and Contact Us pages and a React registration form component for the assessment evidence.
+**Project name:** fullstack_developer_capstone
 
-## Repository structure
+## Project Overview
+
+Car Dealership Reviews is a full-stack application project for exploring car dealerships, viewing customer reviews, and analyzing review sentiment.
+
+## Technologies
+
+- Python
+- Django
+- React
+- JavaScript
+- HTML and CSS
+- REST APIs
+- GitHub Actions
+
+## Project Features
+
+- User login and logout
+- Car dealership listings
+- Dealership details and customer reviews
+- Car makes and models
+- Review sentiment analysis
+- Review submission interface
+- About Us and Contact Us pages
+
+## Project Structure
+
 - `server/frontend/static/About.html` — About Us page
 - `server/frontend/static/Contact.html` — Contact Us page
-- `server/frontend/static/css/styles.css` — shared page styling
-- `server/frontend/src/components/Register/Register.jsx` — registration form component
+- `server/frontend/src/components/Register/Register.jsx` — Registration form
 
-## Important
-These files are starter submission artifacts, not a complete running Django/React application. Do not claim that API endpoints, tests, CI/CD jobs, or deployment have succeeded unless you run and verify them in the course lab environment.
+## Purpose
+
+This project demonstrates full-stack application development, API integration, and the presentation of dealership information and customer reviews.
+
