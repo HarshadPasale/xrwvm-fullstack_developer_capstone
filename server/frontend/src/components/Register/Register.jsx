@@ -1,4 +1,4 @@
-
+```jsx
 import React, { useState } from "react";
 
 const Register = () => {
@@ -41,6 +41,7 @@ const Register = () => {
                     className="form-control"
                     id="userName"
                     name="userName"
+                    placeholder="Username"
                     value={formData.userName}
                     onChange={handleChange}
                     required
@@ -56,6 +57,7 @@ const Register = () => {
                     className="form-control"
                     id="firstName"
                     name="firstName"
+                    placeholder="First Name"
                     value={formData.firstName}
                     onChange={handleChange}
                     required
@@ -71,6 +73,7 @@ const Register = () => {
                     className="form-control"
                     id="lastName"
                     name="lastName"
+                    placeholder="Last Name"
                     value={formData.lastName}
                     onChange={handleChange}
                     required
@@ -86,6 +89,7 @@ const Register = () => {
                     className="form-control"
                     id="email"
                     name="email"
+                    placeholder="email"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -101,13 +105,17 @@ const Register = () => {
                     className="form-control"
                     id="password"
                     name="password"
+                    placeholder="Password"
                     value={formData.password}
                     onChange={handleChange}
                     required
                   />
                 </div>
 
-                <button type="submit" className="btn btn-primary w-100">
+                <button
+                  type="submit"
+                  className="btn btn-primary w-100"
+                >
                   Register
                 </button>
               </form>
@@ -120,3 +128,4 @@ const Register = () => {
 };
 
 export default Register;
+```
